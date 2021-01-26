@@ -740,6 +740,15 @@ p {
     position: relative;
     z-index: 5; }
 
+
+.animate {
+  transition: transform .3s ease-out;
+  display: inline-block;
+}
+.animate:hover {
+  transform: translate(0, -8px);
+}
+
 .header-social {
   position: absolute;
   bottom: 30px;
